@@ -1,0 +1,156 @@
+vs코드 설정
+{
+    "editor.fontFamily": "d2Coding",
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "html.validate.scripts": true,
+    "editor.tabSize": 2,
+    "editor.links": false,
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "emmet.variables": {
+        "lang": "ko"
+    },
+    "editor.renderWhitespace": "all",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.port": 54000,
+    "[scss]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "material-icon-theme.showUpdateMessage": false,
+    "colorize.languages": [
+        "javascript",
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "pcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "json",
+        "html"
+    ],
+    "emmet.triggerExpansionOnTab": true,
+    "php.validate.executablePath": "C:/php7/php.exe",
+    "php.validate.run": "onType",
+    "php.executablePath": "C:/php7/php.exe",
+    "liveServer.settings.useWebExt": false,
+    "phpserver.phpPath": "C:/php7/php.exe",
+    "phpserver.port": 54000,
+    "editor.wrappingIndent": "indent",
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        // "format": "compressed",
+        "extensionName": ".css",
+        // "extensionName": ".min.css",
+        "savePath": "~/../css/"
+    }],
+    "breadcrumbs.enabled": true,
+    "editor.suggestFontSize": 12,
+    "editor.suggestLineHeight": 18,
+    "workbench.colorTheme": "Monokai Sharp",
+    "workbench.colorCustomizations": {
+        //"selection.background": "#000000"
+        //"editor.selectionBackground": "#ffffff88",        
+        //"editor.wordHighlightBackground": "#ffff00",
+        //"editor.background": "#000000"
+    },
+    "gutterpreview.showUnderline": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    //"eslint.validate": [ "javascript", "javascriptreact", { "language": "html", "autoFix": true } ],
+    
+    //"previewServer.browsers": [
+        //"firefox", 
+    //    "chrome"
+    //],
+    "previewServer.ignoreDefaultBroswer": true,
+    "previewServer.port": 9999,
+    "previewServer.ui": {
+        "port": 3001,
+        "weinrePort": 8081
+    },
+    "previewServer.ignoreNotification": true,
+    "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+    "vscode-w3cvalidation.validator-token": "Fri, 25 Jun 2021 22:00:00 GMT",
+    "[html]": { 
+    },
+    "[javascript]": {
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+}
+
+
+
+vs코드 단축기 키바인딩
+
+// 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
+[{
+  "key": "ctrl+alt+left",
+  "command": "editor.emmet.action.prevEditPoint"
+},
+{
+  "key": "ctrl+alt+right",
+  "command": "editor.emmet.action.nextEditPoint"
+},
+{
+  "key": "ctrl+shift+period",
+  "command": "editor.emmet.action.selectNextItem"
+},
+{
+  "key": "ctrl+shift+comma",
+  "command": "editor.emmet.action.selectPrevItem"
+},
+{
+  "key": "ctrl+shift+a",
+  "command": "editor.emmet.action.wrapWithAbbreviation"
+},
+{
+  "key": "ctrl+k",
+  "command": "editor.emmet.action.removeTag"
+},
+{
+  "key": "ctrl+shift+i",
+  "command": "editor.emmet.action.updateTag"
+},
+{
+  "key": "ctrl+d",
+  "command": "editor.emmet.action.balanceOut"
+},
+{
+  "key": "ctrl+shift+d",
+  "command": "editor.emmet.action.balanceIn"
+},
+{
+  "command": "extension.liveServer.goOffline",
+  "key": "ctrl+shift+o",
+  "when": "editorTextFocus"
+},
+{
+  "command": "extension.liveServer.goOnline",
+  "key": "ctrl+shift+p",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+shift+oem_2",
+  "command": "editor.action.blockComment",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "shift+alt+a",
+  "command": "-editor.action.blockComment",
+  "when": "editorTextFocus && !editorReadonly"
+}
+]// 키 바인딩을 이 파일에 넣어서 기본값 재정의
